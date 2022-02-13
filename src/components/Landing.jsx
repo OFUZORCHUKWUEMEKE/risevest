@@ -54,6 +54,10 @@ const Container = styled.div`
 const Head = styled.h1`
   color: #07969E;
   font-size:56px;
+  @media (max-width:768px){
+     font-size:35px;
+     text-align:center;
+  }
   
 `
 const Nav = styled.nav`
@@ -71,6 +75,9 @@ const Par = styled.p`
    font-family:san-sarif;
    font-weight:500;
    color:#405050;
+   @media(max-width:768px){
+      text-align:center;
+   }
 
 `
 

@@ -23,7 +23,7 @@ function App() {
 }
 const Container = styled.div`
   /* overflow: hidden; */
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 `
 
 export default App;

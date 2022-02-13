@@ -42,15 +42,15 @@ const AnadaBanger = () => {
                <Cardd>
                  <p style={{fontSize:'16px',color:'#4A5050'}}>I chose Rise because of its leadership, wealth of knowledge and the people who support them. I invest with Rise in order to protect my savings and investment from being depleted by devaluation and inflation that’s at an all-time high in Nigeria.</p>
                  <Picture>
-                       <Image style={{marginBottom:'25px'}}  src='/img/Ellipse 196 (2).png'/>
-                       <P>Emeke</P>
+                       <Image style={{marginBottom:'50px'}}  src='/img/Ellipse 196 (2).png'/>
+                       <P style={{marginBottom:'50px'}}>Emeke</P>
                    </Picture>
                </Cardd>
                <Cardd>
                  <p style={{fontSize:'16px',color:'#4A5050'}}>I chose Rise because of its leadership, wealth of knowledge and the people who support them. I invest with Rise in order to protect my savings and investment from being depleted by devaluation and inflation that’s at an all-time high in Nigeria.</p>
                  <Picture>
-                       <Image style={{marginBottom:'25px'}}  src='/img/Ellipse 196 (2).png'/>
-                       <P>Ofuzor</P>
+                       <Image style={{marginBottom:'50px'}}  src='/img/Ellipse 196 (2).png'/>
+                       <P style={{marginBottom:'50px'}}>Ofuzor</P>
                    </Picture>
                </Cardd>
            </Main>
@@ -87,6 +87,7 @@ const Container = styled.div`
 
 const Main = styled.div`
    width:100%;
+   margin:auto;
    display:flex;
    justify-content: space-between;
    @media (max-width:768px){

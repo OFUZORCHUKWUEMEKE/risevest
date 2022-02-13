@@ -4,7 +4,7 @@ const Assets = ()=>{
     return(
       <Container>
           <Text>Asset Classes</Text>
-          <Pre>It’s your money, choose where you invest it</Pre>
+          <Pree>It’s your money, choose where you invest it</Pree>
           <Wrapper>
               <Content>
                   <Card>
@@ -72,7 +72,7 @@ const Text = styled.h1`
     font-family: 'san-sarif';
     font-weight: 600;
     @media(max-width:768px){
-      margin-top:90px
+      margin-top:120px
     }
 `
 
@@ -80,6 +80,16 @@ const Pre = styled.p`
     text-align:center;
     font-weight: 400;
     font-size:16px;
+`
+
+const Pree = styled.p`
+    text-align:center;
+    font-weight: 400;
+    color:gray;
+    font-size:16px;
+    @media(max-width:768px){
+      margin-top:50px
+    }
 `
 
 const Value = styled.div`
